@@ -1,0 +1,50 @@
+{
+	"contact": {
+		"firstname": "Test",
+		"lastname": "McTesterson",
+		"nickname": "Testies",
+		"email": "test@mctesterson.com",
+		"bhsid": "515515",
+		"number": [
+			{ "mobile": "1234567890", "primary": true },
+			{ "home": "0987654321", "primary": false }
+		],
+		"address": {
+			"street": "12345 Test Dr.",
+			"city": "Test",
+			"state": "MO",
+			"zip": "64118"
+		},
+		"method": ["email", "text"]
+	},
+	"emergencycontacts": [
+		{
+			"firstname": "Boat",
+			"lastname": "McBoatyface",
+			"nickname": "",
+			"email": "boat@mcboatyface.com",
+			"bhsid": "",
+			"number": [
+				{ "mobile": "2223334444", "primary": true }
+			],
+			"address": {
+				"street": "22222 McBoat St.",
+				"city": "Boat",
+				"state": "KS",
+				"zip": "66216"
+			}
+		}
+	],
+	"info": {
+		"created": "1492015991132",
+		"ip": {
+			"created": "208.18.85.22",
+			"primary": "208.18.85.22"
+		}
+	},
+	"preferences": {
+		"avatar": "",
+		"theme": "dark",
+		"roles": [ "baritone", "member", "active", "board", "section-leader"]
+	}
+}

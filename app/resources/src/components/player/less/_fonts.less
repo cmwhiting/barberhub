@@ -1,0 +1,54 @@
+@icomoon-font-path: "/resources/src/font/player";
+
+@icon-mp-fast-backward: "\f049";
+@icon-mp-play: "\f04b";
+@icon-mp-pause: "\f04c";
+@icon-mp-stop: "\f04d";
+@icon-mp-fast-forward: "\f050";
+
+@font-face {
+    font-family: 'music-player';
+    src:
+        url('@{icomoon-font-path}/music-player.ttf?os86w7') format('truetype'),
+        url('@{icomoon-font-path}/music-player.woff?os86w7') format('woff'),
+        url('@{icomoon-font-path}/music-player.svg?os86w7#music-player') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-mp-"], [class*=" icon-mp-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'music-player' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mp-fast-backward {
+    &:before {
+        content: @icon-mp-fast-backward;
+    }
+}
+.icon-mp-play {
+    &:before {
+        content: @icon-mp-play;
+    }
+}
+.icon-mp-pause {
+    &:before {
+        content: @icon-mp-pause;
+    }
+}
+.icon-mp-fast-forward {
+    &:before {
+        content: @icon-mp-fast-forward;
+    }
+}
+
